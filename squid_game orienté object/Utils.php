@@ -4,15 +4,10 @@
     class Utils {
 
 
-        static function randomNumver() {
-            
+        public static function randomNumber($min, $max) {
+            return rand($min, $max);
         }
 
-
-
     }
-
-
-
 
 ?>
